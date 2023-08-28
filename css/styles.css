@@ -71,12 +71,11 @@ button {
 .menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .contacts-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .logo-web {
@@ -112,6 +111,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .contacts-list-link {
@@ -321,6 +321,7 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .our-portfolio-list-text {
