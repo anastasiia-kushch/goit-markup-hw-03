@@ -175,18 +175,18 @@ address {
 /* STRATEGY */
 
 .strategy-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .strategy-list {
-    display: flex;
-    width: 1128px;
-    column-gap: 24px;
+  display: flex;
+  width: 1128px;
+  column-gap: 24px;
 }
 
 .strategy-list-item {
-    width: 264px;
+  width: 264px;
 }
 
 .visually-hidden {
@@ -221,18 +221,18 @@ address {
 }
 
 .our-team-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our-team-list {
-    display: flex;
-    column-gap: 24px;
+  display: flex;
+  column-gap: 24px;
 }
 
 .our-team-list-item {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .our-team {
@@ -275,17 +275,18 @@ address {
   background-color: #ffffff;
 }
 
-/* CONTAINER */
+/* OUR PORTFOLIO */
 
 .our-portfolio-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our-portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  background-color: #ffffff;
 }
 
 .our-portfolio-title {
@@ -298,26 +299,26 @@ address {
   padding-bottom: 72px;
 }
 
-.our-portfolio-list {
-  background-color: #ffffff;
-}
-
 .our-portfolio-list-title {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  margin-top: 32px;
 }
 
 .our-portfolio-list-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 32px;
 }
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 102.5px;
+  padding-bottom: 100px;
 }
 
 .footer-text {
@@ -327,6 +328,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background: #2e2f42;
+  width: 264px;
+  height: 72px;
 }
 
 .logo-web-footer {
