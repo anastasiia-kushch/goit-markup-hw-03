@@ -1,0 +1,253 @@
+:root {
+  /* FONTS */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* COLORS */
+  --primary-brand-cl: rgb(77, 90, 229);
+  --pressed-state-cl: rgb(64, 75, 191);
+  --dark-cl: rgb(46, 47, 66);
+  --success-cl: rgb(49, 208, 170);
+  --text-cl: rgb(67, 68, 85);
+  --subtle-text-cl: rgb(142, 143, 153);
+  --accent-cl: rgb(231, 233, 252);
+  --light-cl: rgb(244, 244, 253);
+  --white-background-cl: rgb(255, 255, 255);
+  --modal-background-cl: rgb(252, 252, 252);
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--text-cl);
+  background-color: var(--white-background-cl);
+}
+
+/* RESET styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  color: currentColor;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* COMMON styles*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1158px;
+}
+
+.section-title {
+  color: var(--dark-cl);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-cl);
+}
+
+.logo-accent {
+  color: var(--dark-cl);
+}
+
+/* #region HEADER */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav > .logo {
+  margin-right: 76px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu-link {
+  color: var(--dark-cl);
+  padding: 24px 0;
+}
+
+.contacts-link {
+  font-weight: 400;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--pressed-state-cl);
+}
+/* #endregion */
+
+/* #region HERO */
+.hero {
+  background-color: var(--dark-cl);
+}
+
+.hero-title {
+  color: var(--white-background-cl);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  color: var(--white-background-cl);
+  background-color: var(--primary-brand-cl);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--pressed-state-cl);
+}
+/* #endregion */
+
+/* #region BENEFITS */
+.benefits-title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-cl);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.benefits-text {
+  font-weight: 400;
+}
+/* #endregion */
+
+/* #region TEAM */
+.team {
+  background-color: var(--light-cl);
+}
+
+.team-item {
+  background-color: var(--white-background-cl);
+}
+
+.member-name {
+  color: var(--dark-cl);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.member-pos {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* #endregion */
+
+/* #region PORTFOLIO */
+.portfolio-item {
+  background-color: var(--white-background-cl);
+}
+
+.portfolio-title {
+  color: var(--dark-cl);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  font-weight: 400;
+}
+/* #endregion */
+
+/* #region FOOTER */
+.footer {
+  background-color: var(--dark-cl);
+}
+
+.footer .logo-accent {
+  color: var(--light-cl);
+}
+.footer-text {
+  color: var(--light-cl);
+  font-weight: 400;
+}
+/* #endregion */
